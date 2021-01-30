@@ -1,2 +1,2 @@
 # simonjamesuk.github.io
-My bi site on GitHub
+My bio site on GitHub
