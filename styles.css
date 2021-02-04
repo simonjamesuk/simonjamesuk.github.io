@@ -1,3 +1,17 @@
 .container {
     background-color: bisque;
+    max-width: 75%;
+    margin: 0px auto;
+}
+
+.current {
+    display: inline-block;
+    max-width: 50%;
+    background-color: blue;
+}
+
+.previous {
+    display: inline-block;
+    max-width: 50%;
+    background-color: brown;
 }
