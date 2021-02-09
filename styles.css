@@ -1,17 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    background-color: bisque;
-    max-width: 75%;
-    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    position: relative;
+    top: 30px;
+    width: 620px;
+}
+
+article h2 {
+    position: absolute;
+    width: 620px;
+    height: 30px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+article {
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    text-align: justify;
+    font-size: 12pt;
 }
 
 .current {
-    display: inline-block;
-    max-width: 50%;
     background-color: blue;
 }
 
 .previous {
-    display: inline-block;
-    max-width: 50%;
+    right: 0;
     background-color: brown;
 }
